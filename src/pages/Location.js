@@ -20,7 +20,9 @@ const Location = () => {
               </p>
               <h6 class="card-subtitle mb-2 text-bold mt-3">Delivery & Pickup ONLY</h6>
               <p class="card-text">(No dine-in/walk-in) Mon - Sun, 11am - 6pm</p>
-              <button className="btn btn-danger mt-3">Pickup Location</button>
+              <button className="btn mt-3" style={{ backgroundColor: "#967557" }}>
+                Pickup Location
+              </button>
             </div>
           </div>
         </div>

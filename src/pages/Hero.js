@@ -33,17 +33,17 @@ const Hero = () => {
     },
   ];
   return (
-    <div className="h-100">
+    <div className="h-90">
       <div className="">
         <img
           src="https://cdn.shopify.com/s/files/1/0040/2305/8561/files/2022-fathers-day-edition-black-forest-slider_2100x.jpg?v=1654338238"
           alt="..."
-          className=" w-100"
+          className=" w-100 slide-fwd-center"
           style={{ objectFit: "cover", position: "absolute", zIndex: "-1" }}
         />
-        <div className=" ps-4 mb-5" style={{ paddingTop: "400px" }}>
+        <div className=" ps-4 mb-5" style={{ paddingTop: "300px" }}>
           <div>
-            <div class="card-body" style={{ marginTop: "90px" }}>
+            <div class="card-body" style={{ marginTop: "90px", color: "white" }}>
               <h6 class="card-title">New Limited Edition</h6>
               <h2 class="card-subtitle mb-3 text-bold">2022 Father's day Edition - Black Forest</h2>
               <button className="btn" style={{ backgroundColor: "#88694E" }}>
@@ -55,7 +55,7 @@ const Hero = () => {
       </div>
 
       {/*advantages Section  */}
-      <div className="bg-light" style={{ marginTop: "30px" }}>
+      <div className="bg-light" style={{ marginTop: "10px" }}>
         <div className="container d-flex pt-5 pb-5 ">
           <div className="container d-flex border-end" style={{ borderColor: "gray" }}>
             <div className="d-flex justify-content-center align-items-center">
